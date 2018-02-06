@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slap-Encapsulated</title>
+</head>
+<body>
+    <section>
+      <div>
+        <img src="https://thumbs.gfycat.com/PastCookedCuscus-max-1mb.gif">
+        <h3>Health: <span id="health">...</span></h3>
+        <button onclick="app.controllers.slapController.attack('slap')">SLAP</button>
+        <button onclick="app.controllers.slapController.attack('kick')">Kick</button>
+        <button onclick="app.controllers.slapController.attack('punch')">Punch</button>
+      </div>
+    </section>
+
+
+    <!-- load order -->
+      <!-- SERVICES -->
+      <script src="slap-service.js"></script>
+      <!-- CONTROLLERS -->
+      <script src="slap-controller.js"></script>
+      <!-- APP -->
+      <script src="app.js"></script>
+</body>
+</html>
